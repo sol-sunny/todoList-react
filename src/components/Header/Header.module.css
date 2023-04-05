@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid orange;
+}
+
+.filters {
+  display: flex;
+}
+
+.filter {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    text-transform: capitalize;
+    background-color: transparent;  
+    /* 투명 */
+    color: orange;
+    opacity: 0.7;   
+    /* 선택된것만 진하게 */
+    font-weight: bold;
+}
+
+.filter:hover,
+.filter.selected{
+    opacity: 1; 
+}
+
+/* selected 클래스만 밑줄 그어줌 */
+.filter.selected::after {
+    content: '';
+    display: block;
+    margin-top: 0.2rem;
+    border: 1px solid orange;
+  }

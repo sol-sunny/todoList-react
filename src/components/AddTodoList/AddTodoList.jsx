@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid"; //랜덤id
+import styles from "./AddTodoList.module.css";
 
 export default function AddTodoList({ onAdd }) {
   const [text, setText] = useState("");
@@ -16,14 +17,15 @@ export default function AddTodoList({ onAdd }) {
     setText(""); //todo추가하면 input창 비워지도록
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.form}>
       <input
         type="text"
         placeholder="Add Your Todo"
         value={text}
-        onChange={handleChange}
+        onChange={handleChange}   //input칸에 무언가 쓰여지면 나오는 이벤트
+        className={styles.input}
       />
-      <button>+Add</button>
+      <button className={styles.addButton}>+Add</button>
     </form>
   );
 }

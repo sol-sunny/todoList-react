@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.list {
+  flex: 1 1 auto;   
+  /* 가장 밑으로 보내기 */
+  overflow-y: auto;
+  /* 리스트가 길어지면 자동으로 스크롤이 생기도록 해줌 */
+}
