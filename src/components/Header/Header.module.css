@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid #f16e03;
 }
 
 .filters {
@@ -16,7 +16,7 @@
     text-transform: capitalize;
     background-color: transparent;  
     /* 투명 */
-    color: orange;
+    color: #f16e03;
     opacity: 0.7;   
     /* 선택된것만 진하게 */
     font-weight: bold;
@@ -32,5 +32,5 @@
     content: '';
     display: block;
     margin-top: 0.2rem;
-    border: 1px solid orange;
+    border: 1px solid #f16e03;
   }
