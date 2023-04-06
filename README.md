@@ -1,8 +1,9 @@
 # TODO LIST
-:point_right: React >> 아이템을 추가, 제거하고 상태별로 확인할 수 있는 앱
+:point_right: React를 사용해 아이템을 추가, 제거하고 상태별로 확인할 수 있는 앱
 
-![todoList](./images/todo.PNG)
-:clapper: 데모앱: [todolist](https://grand-malasada-fee8b1.netlify.app/)
+![캡처](https://user-images.githubusercontent.com/117346671/230273726-13304cf7-22fa-4f86-980c-ba0d22817a81.PNG)
+
+## :clapper: 데모앱: [todolist](https://grand-malasada-fee8b1.netlify.app/)
 
 ## :memo:기능
 + 유저가 input에 값을 입력한다
